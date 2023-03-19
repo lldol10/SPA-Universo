@@ -1,0 +1,44 @@
+
+html, body {
+    overflow: hidden;
+}
+
+.container{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    /* adicionando imagem de fundo */
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    padding: 3rem 5rem;
+}
+
+nav img{
+    margin-right: 50px;
+}
+
+nav ul {
+    display: flex;
+    gap: 4rem;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+}
+
+#app{
+    color: white;
+    max-width: 60%;
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 42px;
+    letter-spacing: 3px;
+}
